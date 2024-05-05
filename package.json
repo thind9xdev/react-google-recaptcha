@@ -1,0 +1,35 @@
+{
+  "name": "google-recaptcha-v3",
+  "version": "1.0.3",
+  "description": "A hook google-recaptcha-v3 for react",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "winBuild": "set \"GENERATE_SOURCEMAP=false\" && tsc",
+    "prepublishOnly": "npm run winBuild"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "google",
+    "recaptcha",
+    "google-recaptcha-v3",
+    "react-google-recaptcha",
+    "google-recaptcha-v3-react"
+  ],
+  "author": "thind9xdev",
+  "homepage": "https://github.com/thind9xdev/react-google-recaptcha",
+  "repository": {
+    "url": "https://github.com/thind9xdev/react-google-recaptcha.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "lazysizes": "^5.3.2"
+  }
+}
