@@ -1,6 +1,6 @@
 {
   "name": "google-recaptcha-v3",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React hook for Google reCAPTCHA v3 integration",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
