@@ -8,6 +8,8 @@ This directory contains utility functions and examples for implementing secure b
 
 A comprehensive TypeScript utility file providing:
 
+> **Note:** This file is meant to be used in your backend Node.js project, not with the React library. Copy it to your backend codebase and ensure you have `@types/node` installed.
+
 - **Token verification functions** - Verify tokens with Google's API
 - **Validation functions** - Comprehensive security checks (score, action, hostname)
 - **Express.js middleware** - Ready-to-use middleware for Express applications
